@@ -1,0 +1,96 @@
+[{
+  "cityindex": 1,
+  "cityName" :"Guwahati",
+  "cityPopulation" :2100000,
+  "cityProsperityVariance": 20, 
+  "citiProsperityFactor" : 10,
+  "monthToWeather": { "jan":"winter", "feb":"winter", "mar":"spring", "apr":"spring", "may":"summer", "jun":"summer",
+                      "jul":"summer", "aug":"autumn", "sep":"autumn", "oct":"autumn", "nov":"winter", "dec":"winter"}, 
+  "festivalMonths" :
+                    [ {"fIndex": 1,"fName": "Bihu", "fdate":"14-04", "fduration": 7, "fPriceVariance":15  }, 
+                      {"fIndex": 2,"fName": "Puja", "fdate":"15-10", "fduration":5,"fPriceVariance":20  } ], 
+  "affinityGoods"  : [
+                      { 
+                      "affinityIndex" : 1, 
+                      "goodsIndex": 1, 
+                      "perPlayerMaxPercent" :1,
+                      "PerSuppplierPercentVariance":10, 
+                      "dailyConsumptionPerPersonInGram" : 160, 
+                      "dailyConsumptionPerPersonvariance": 15,  
+                      "dailyConsumptionInTon" : 0, 
+                      "maxStockinDays": 25,  
+                      "maxStockLevel" : 0,
+                      "initialGoodsInDays":0, 
+                      "reorderInDays" : 15,
+                      "reorderLevel"  : 0,
+                      "distanceFromNearestGoodsProviderMarketPlace":0
+                      },
+                      { 
+                        "affinityIndex" : 2, 
+                        "goodsIndex" : 3, 
+                        "perSupplierMaxPercent" :1,
+                        "PerSuppplierPercentVariance":10, 
+                        "dailyConsumptionPerPersonInGram" : 45, 
+                        "dailyConsumptionPerPersonvariance": 10,  
+                        "dailyConsumptionInTon" : 0, 
+                        "maxStockinDays": 20,  
+                        "maxStockLevel" : 0,
+                        "initialGoodsInDays":0,
+                        "reorderInDays" : 10,  
+                        "reorderLevel"  : 0,
+                        "NearestMarketPlace":"Patna"
+                      }
+
+                    ],
+    "nonAffinityGoods"  : [
+                        { 
+                        "nonAffinityIndex" : 1,
+                        "goodsIndex"    : 2,
+                        "perSupplierMaxPercent" :1,
+                        "PerSuppplierPercentVariance":10, 
+                        "dailyConsumptionPerPersonInGram" : 40, 
+                        "dailyConsumptionPerPersonvariance": 4,
+                        "dailyConsumptionInTon" : 0, 
+                        "maxStockinDays": 30,  
+                        "maxStockLevel" : 0,
+                        "initialGoodsInDays":0,
+                        "reorderInDays" : 10, 
+                        "reorderLevel"  : 0,
+                        "NearestMarketPlace":"Patna"
+                        }, 
+                        { 
+                          "nonAffinityIndex" : 2,
+                          "goodsIndex"    : 4,
+                          "perSupplierMaxPercent" :1,
+                          "PerSuppplierPercentVariance":10, 
+                          "dailyConsumptionPerPersonInGram" : 5, 
+                          "dailyConsumptionPerPersonvariance": 2,
+                          "dailyConsumptionInTon" : 0, 
+                          "maxStockinDays": 5,  
+                          "maxStockLevel" : 0,
+                          "initialGoodsInDays":0,
+                          "reorderInDays" : 3, 
+                          "reorderLevel"  : 0,
+                          "NearestMarketPlace":"Patna"
+                          },
+                          { 
+                            "nonAffinityIndex" : 3,
+                            "goodsIndex"    : 5,
+                            "perSupplierMaxPercent" :1,
+                            "PerSuppplierPercentVariance":10,
+                            "dailyConsumptionPerPersonInGram" : 10, 
+                            "dailyConsumptionPerPersonvariance": 6,
+                            "dailyConsumptionInTon" : 0, 
+                            "maxStockinDays": 4,  
+                            "maxStockLevel" : 0,
+                            "initialGoodsInDays":0,
+                            "reorderInDays" : 2, 
+                            "reorderLevel"  : 0,
+                            "NearestMarketPlace":"Patna"
+                            }
+                     ]
+      
+
+
+}
+]
